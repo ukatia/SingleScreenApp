@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.singlescreenapp.MainActivity">
+
+        <TextView
+            style="@style/textSection.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding2"
+            android:paddingLeft="@dimen/padding4"
+            android:paddingTop="@dimen/padding2"
+            android:text="@string/title"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bakery_logo" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bakery_1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bakery_2" />
+
+        <TextView
+            style="@style/textSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding2"
+            android:paddingLeft="@dimen/padding4"
+            android:text="@string/contactInfo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding4">
+
+            <ImageView
+                android:layout_width="@dimen/contactInfoImg_size"
+                android:layout_height="@dimen/contactInfoImg_size"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="@dimen/padding4"
+                android:layout_marginTop="@dimen/padding2"
+                android:src="@drawable/address" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp">
+
+            <ImageView
+                android:layout_width="@dimen/contactInfoImg_size"
+                android:layout_height="@dimen/contactInfoImg_size"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="@dimen/padding2"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telephone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding2">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="@dimen/padding2"
+                android:src="@drawable/hours" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hoursOfOperation" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="title">Bakery - Kyriakidis</string>
+    <string name="contactInfo">Contact Info</string>
+    <string name="address">Alex. Akritidou 8 55132 Thessaloniki Greece</string>
+    <string name="telephone">2310 418612</string>
+    <string name="hoursOfOperation">Monday - Saturday: 6:00AM - 5:00PM</string>
+</resources>
