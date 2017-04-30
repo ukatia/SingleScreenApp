@@ -1,0 +1,30 @@
+package com.example.android.singlescreenapp;
+
+<<<<<<< HEAD
+import android.content.Intent;
+import android.net.Uri;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> 19d9ece5892a199acce2e5b16e1664427be60a16
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+<<<<<<< HEAD
+
+    public void openMap(View view) {
+        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                Uri.parse("http://maps.google.com/maps?q=Αλ.+Ακριτίδου,+Καλαμαριά+551+31, Θεσσαλονίκη, Ελλάδα"));
+        startActivity(intent);
+    }
+=======
+>>>>>>> 19d9ece5892a199acce2e5b16e1664427be60a16
+}
